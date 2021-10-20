@@ -1,0 +1,87 @@
+
+body {
+
+
+    background-image: url(mon.jpg);
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    padding: 100px;
+    margin-top: 210px;
+    box-shadow: 0px 0px 200px 0px rgb(22, 129, 156);
+    margin-left: 400px;
+    
+
+}
+.box p {
+    color: rgb(10, 236, 149);
+    margin-left: 50px;
+}
+.box h4{
+    color: rgb(10, 236, 149);
+    margin-left: 50px;
+    
+}
+.box h3{
+    color: rgb(10, 236, 149);
+    margin-left: 50px;
+}
+.ronde{
+    
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    padding: auto;
+    margin-left: 50px;
+    
+}
+.box button{
+    margin-top: 10px;
+    color: rgba(106, 8, 185, 0.829);
+    
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(50, 205, 120);
+    
+
+}
+header .logo{
+    color: rgb(50, 205, 120);
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 2px;
+    
+}
+header ul {
+display: flex;
+text-decoration: none;
+justify-content: center;
+
+color: rgb(50, 205, 120);
+
+}
+header ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: rgb(50, 205, 120);
+}
+header ul li a:hover{
+    background-color: rgb(109, 50, 205);
+}
